@@ -1,0 +1,63 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(135deg, #1f1f1f , #2c2c2c);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.heroh1 {
+font-size: 3rem;
+margin-bottom: 10px;
+
+}
+
+.hero h2{
+
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.hero p{
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.hero-btn {
+    padding: 12px 25px;
+    background: #ff4d6d;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+
+    transform: scale(1.05);
+}
+.project-links a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 12px;
+    text-decoration: none;
+    background-color: #d6336c;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    font-size: 14px;
+}
+.project-links a:last-child {
+    background-color: transparent;
+    border: 1px solid #d6336c;
+    color: #d6336c;
+}
+
+.project-links a:last-child:hover {
+    background-color: #d6336c;
+    color: white;
+}
