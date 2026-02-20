@@ -149,3 +149,24 @@ margin-bottom: 10px;
 
     transform: scale(1.05);
 }
+.project-links a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 12px;
+    text-decoration: none;
+    background-color: #d6336c;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    font-size: 14px;
+}
+.project-links a:last-child {
+    background-color: transparent;
+    border: 1px solid #d6336c;
+    color: #d6336c;
+}
+
+.project-links a:last-child:hover {
+    background-color: #d6336c;
+    color: white;
+}
